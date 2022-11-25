@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #4070f4;
+}
+
+.container {
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 0 15px; 
+    
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container header {
+    font-size: 20px;
+    display: block;
+    font-weight: 600;
+    color: #333;
+}
+
+.btn-1 {
+    margin-top: 1rem;
+    width: 20%;
+    height: 42px;
+    cursor: pointer;
+    color: white;
+    transition: all 500ms ease-in-out;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    border: none;
+    background-color: blue;
+}
+
+button:hover {
+    background-color: green;
+    transition: 10ms;
+    
+}
+
+p {
+    text-transform: capitalize;
+    padding-bottom: 2rem;
+
+}
+
+.container__form{
+    position: relative;
+    display: block;
+    margin-top: 16px;
+    padding: 30px;
+    min-height: 490px;
+    display: block;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #f2f2f2;
+}
+
+.detail p{
+    margin-top: 2rem;
+    /* padding-top: 1rem; */
+    padding-bottom: 2rem;
+}
+.last__four{
+    margin-top: 1rem;
+}
+
+.container__form__{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+label{
+font-size: 12px;
+font-weight: 500;
+padding-bottom: 0.7rem;
+margin: 5px 0;
+color: #333;
+color: #2e2e2e;
+}
+
+
+input{
+    color: #333;
+    height: 42px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.13);
+    outline: none;
+    margin: 8px 0;
+    width: 90%;
+    margin: 4px 0;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+    font-weight: 400;
+    padding: 0 15px;
+}
+
+input::placeholder {
+    font-size: 11px;
+    transition: all 400ms ease-in-out;
+}
+
+input:focus::placeholder {
+    font-size: 0;
+}
